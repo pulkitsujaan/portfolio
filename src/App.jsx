@@ -20,7 +20,7 @@ const App = () => {
       </main>
 
       <footer className="py-8 text-center font-hand text-xl border-t-2 border-crayon-dark bg-white">
-        <p>© 2025 Pulkit Sujaan. Built with 🎵 and ☕</p>
+        <p>© 2026 Pulkit Sujaan. Built with 🎵 and ☕</p>
       </footer>
     </div>
   );

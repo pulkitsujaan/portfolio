@@ -42,7 +42,13 @@ const About = () => {
                  <div className="flex items-center gap-4 border-b-2 border-crayon-dark pb-4 mb-4">
                     <div className="w-16 h-16 bg-gray-200 rounded-full border-2 border-crayon-dark overflow-hidden">
                       {/* Placeholder Avatar */}
-                      <div className="w-full h-full bg-crayon-cyan flex items-center justify-center text-2xl font-bold text-white">P</div>
+                      <img 
+              src="/profile.png" 
+              alt="Pulkit Sujaan" 
+              className="w-full h-full object-cover" 
+              // OPTIONAL: Add this class for Black & White style:
+              // className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all"
+            />
                     </div>
                     <div>
                       <h3 className="font-sans font-bold text-2xl">Pulkit Sujaan</h3>
