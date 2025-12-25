@@ -16,7 +16,8 @@ export const projects = [
     tags: ["React", "Render", "Node.js"],
     liveLink: "https://easykheti.onrender.com/",
     githubLink: "https://github.com/pulkitsujaan/DevSoil",
-    color: "bg-green-100"
+    color: "bg-green-100",
+    image:"/easy.png"
   },
   {
     title: "Mridang Fest",
@@ -24,7 +25,8 @@ export const projects = [
     tags: ["React", "Firebase", "CSS"],
     liveLink: "https://mridang.iiitu.ac.in",
     githubLink: "https://github.com/Shashanksharma218/Mridang",
-    color: "bg-pink-100"
+    color: "bg-pink-100",
+    image:"/mridang.png"
   },
   {
     title: "My Portfolio",
@@ -32,7 +34,8 @@ export const projects = [
     tags: ["React", "Tailwind v4", "Vite"],
     liveLink: "#",
     githubLink: "https://github.com/pulkitsujaan",
-    color: "bg-yellow-100"
+    color: "bg-yellow-100",
+    image:"/portfolio.png"
   }
 ];
 
