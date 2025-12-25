@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Patrick+Hand&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-hand: "Patrick Hand", cursive;
+  --font-sans: "Fredoka", sans-serif;
+
+  /* Colors */
+  --color-crayon-paper: #fffdf5;
+  --color-crayon-yellow: #FFD93D;
+  --color-crayon-blue: #6BCB77;
+  --color-crayon-red: #FF6B6B;
+  --color-crayon-cyan: #4D96FF;
+  --color-crayon-dark: #2d2d2d;
+
+  /* Shadows */
+  --shadow-hard: 4px 4px 0px 0px #2d2d2d;
+  --shadow-hard-hover: 2px 2px 0px 0px #2d2d2d;
+}
+
+/* --- ADD THIS BLOCK FOR SMOOTH SCROLL --- */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-crayon-paper);
+  color: var(--color-crayon-dark);
+  background-image: radial-gradient(#d1d5db 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+::-webkit-scrollbar { width: 12px; }
+::-webkit-scrollbar-track { background: var(--color-crayon-paper); border-left: 2px solid var(--color-crayon-dark); }
+::-webkit-scrollbar-thumb { background: var(--color-crayon-red); border: 2px solid var(--color-crayon-dark); }
