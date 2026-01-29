@@ -31,7 +31,7 @@ const Hero = () => {
 
         {/* Subtext */}
         <p className="font-hand text-2xl text-gray-700 mb-10 max-w-2xl mx-auto">
-          B.Tech CSE Student turning ideas into real, usable products. I write code, play guitar, and solve problems.
+          I write code, play guitar, and solve problems.
         </p>
 
         {/* Action Buttons */}
