@@ -34,3 +34,11 @@ body {
 ::-webkit-scrollbar { width: 12px; }
 ::-webkit-scrollbar-track { background: var(--color-crayon-paper); border-left: 2px solid var(--color-crayon-dark); }
 ::-webkit-scrollbar-thumb { background: var(--color-crayon-red); border: 2px solid var(--color-crayon-dark); }
+
+.animate-spin-slow {
+  animation: spin 8s linear infinite;
+}
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
